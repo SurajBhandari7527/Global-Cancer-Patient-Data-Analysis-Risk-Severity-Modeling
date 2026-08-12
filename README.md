@@ -7,9 +7,17 @@ A global dataset containing **50,000 cancer patient records (2015–2024)** was 
 * **Total Patients:** 50,000
 * **Total Columns:** 15 columns
 * **Columns Included:** `Patient_ID`, `Age`, `Gender`, `Country_Region`, `Year`, `Genetic_Risk`, `Air_Pollution`, `Alcohol_Use`, `Smoking`, `Obesity_Level`, `Cancer_Type`, `Cancer_Stage`, `Treatment_Cost_USD`, `Survival_Years`, `Target_Severity_Score`
+
 Link: https://www.kaggle.com/datasets/zahidmughal2343/global-cancer-patients-2015-2024
+
 Notebook: https://www.kaggle.com/code/surajbhandari527/cancer-data-analysis
+
 ---
+## 📌 Problem Statements & Research Questions
+All 16 research questions analyzed in this project are documented separately in a dedicated file.
+
+👉 **[Click here to view all Research Questions (RESEARCH_QUESTIONS.md)](./RESEARCH_QUESTIONS.md)**
+
 
 ## 🔬 Step-by-Step Data Analysis
 
@@ -176,6 +184,10 @@ Notebook: https://www.kaggle.com/code/surajbhandari527/cancer-data-analysis
   * A p-value of **0.603** was obtained for survival years across stages.
   * It was proven that cancer stage exerts **no statistically significant effect** on treatment cost or survival duration in this dataset.
 
+### Step 17: Interaction Analysis (Genetic Risk × Smoking vs. Severity)
+* **Question/Problem:** Was the negative effect of smoking on cancer severity amplified when a patient possessed a higher genetic risk score?
+* **Solution:** Patients were categorized into High and Low Genetic Risk groups, and the interaction effect between Smoking and `Target_Severity_Score` was evaluated across both groups using linear regression models and the Random Forest Regressor.
+* **Insight:** Both Smoking ($r = 0.484$) and Genetic Risk ($r = 0.479$) were identified as top independent drivers of severity. A combined additive effect was observed, where the highest cancer severity scores were consistently recorded in patients with both high genetic risk scores and high smoking scores.
 ---
 
 ## 🎯 Summary of Key Findings
