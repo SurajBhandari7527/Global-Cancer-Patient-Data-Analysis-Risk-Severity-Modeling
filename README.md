@@ -8,7 +8,7 @@ A global dataset containing **50,000 cancer patient records (2015–2024)** was 
 * **Total Columns:** 15 columns
 * **Columns Included:** `Patient_ID`, `Age`, `Gender`, `Country_Region`, `Year`, `Genetic_Risk`, `Air_Pollution`, `Alcohol_Use`, `Smoking`, `Obesity_Level`, `Cancer_Type`, `Cancer_Stage`, `Treatment_Cost_USD`, `Survival_Years`, `Target_Severity_Score`
 
-Link: https://www.kaggle.com/datasets/zahidmughal2343/global-cancer-patients-2015-2024
+Dataset Link: https://www.kaggle.com/datasets/zahidmughal2343/global-cancer-patients-2015-2024
 
 Notebook: https://www.kaggle.com/code/surajbhandari527/cancer-data-analysis
 
@@ -16,7 +16,7 @@ Notebook: https://www.kaggle.com/code/surajbhandari527/cancer-data-analysis
 ## 📌 Problem Statements & Research Questions
 All 16 research questions analyzed in this project are documented separately in a dedicated file.
 
-👉 **[Click here to view all Research Questions (RESEARCH_QUESTIONS.md)](./RESEARCH_QUESTIONS.md)**
+👉 **[Click here to view all Research Questions (Problem_Statements.md)](./Problem_Statements.md)**
 
 
 ## 🔬 Step-by-Step Data Analysis
